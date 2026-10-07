@@ -1,0 +1,86 @@
+[
+  {
+    "id": "policy-leave",
+    "title": "Annual leave",
+    "text": "Employees have 20 days of annual leave. Leave requests require manager approval. Unused days may carry forward up to five days.",
+    "tenant": "A",
+    "version": 1
+  },
+  {
+    "id": "policy-refund",
+    "title": "Refund policy",
+    "text": "Refunds are allowed within 30 days of purchase. A receipt and order ID are required. Refunds over 10000 paise require manager approval.",
+    "tenant": "A",
+    "version": 1
+  },
+  {
+    "id": "policy-password",
+    "title": "Password reset",
+    "text": "Reset a forgotten password using the account recovery page. Reset links expire after 15 minutes. Support cannot ask for your existing password.",
+    "tenant": "A",
+    "version": 1
+  },
+  {
+    "id": "policy-expenses",
+    "title": "Expense claims",
+    "text": "Submit expense claims within 14 days. Attach an itemized receipt. The finance team reviews claims every Friday.",
+    "tenant": "A",
+    "version": 1
+  },
+  {
+    "id": "guide-rag",
+    "title": "Retrieval augmented generation",
+    "text": "RAG retrieves source passages before generation. Chunking divides long documents. Citations identify the evidence used in an answer. Retrieval cannot supply information absent from the indexed corpus.",
+    "tenant": "A",
+    "version": 1
+  },
+  {
+    "id": "guide-eval",
+    "title": "Evaluation",
+    "text": "Measure retrieval recall using relevant document IDs. Measure answer support separately from fluency. Keep a held out golden set and inspect failures by task type.",
+    "tenant": "A",
+    "version": 1
+  },
+  {
+    "id": "guide-serving",
+    "title": "Serving models",
+    "text": "Prefill processes prompt tokens. Decoding produces response tokens. Longer outputs increase decoding work. Measure time to first token and full response latency separately.",
+    "tenant": "A",
+    "version": 1
+  },
+  {
+    "id": "guide-security",
+    "title": "Tool permissions",
+    "text": "Treat retrieved text as untrusted data. Enforce tool permissions in application code. Bind approvals to the exact action, amount and resource. Use idempotency keys for repeated writes.",
+    "tenant": "A",
+    "version": 1
+  },
+  {
+    "id": "guide-deploy",
+    "title": "Deployment",
+    "text": "Use readiness checks before routing traffic to a loaded model. Compare a canary against release gates. Keep a tested rollback path and monitor errors after deployment.",
+    "tenant": "A",
+    "version": 1
+  },
+  {
+    "id": "guide-privacy",
+    "title": "Privacy",
+    "text": "Minimize personal data before model processing. Keep access controls on source documents, indexes and caches. Redaction patterns do not detect every kind of sensitive information.",
+    "tenant": "A",
+    "version": 1
+  },
+  {
+    "id": "b-leave",
+    "title": "Tenant B leave",
+    "text": "Tenant B employees have 30 days of annual leave. This document belongs only to tenant B.",
+    "tenant": "B",
+    "version": 1
+  },
+  {
+    "id": "b-refund",
+    "title": "Tenant B refunds",
+    "text": "Tenant B refunds require supervisor approval for every order. Tenant B uses a 14 day return window.",
+    "tenant": "B",
+    "version": 1
+  }
+]
